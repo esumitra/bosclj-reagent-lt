@@ -126,7 +126,7 @@
   * selection offsets from top left corner
   * selection width and height
   * using local state"
-  [grid2 8 8 grid-span-cell])
+  [grid2 4 3 grid-span-cell])
 
 ;;; -------------------------
 ;;; bootstrap JS and CSS code

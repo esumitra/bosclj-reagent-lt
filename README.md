@@ -1,8 +1,8 @@
-Clojurescript Reagent Components
-============================
+Clojurescript and Reagent Components and Dataflow
+========================================
 
 
-This project requires Java 8 and lein. Please download, install and verify that these tools are available before running the project. 
+Project for Clojure Lightning Talk at https://www.meetup.com/Boston-Clojure-Group/events/240535773/. This project requires Java 8 and lein. Please download, install, and verify that these tools are available before running the project. 
 
 ----------
 
@@ -28,6 +28,12 @@ lein figwheel esumitra
 The devcards UI is now available at http://localhost:3449/index.html
 
 ### <i class="icon-refresh"> Modifying the UI
-The development environment automatically detects changes to code and injects the updated, compiled code into the browser providing a UI REPL for fast interactive development.
+The development environment automatically detects changes to code and injects the updated, compiled code into the browser providing a UI REPL for fast interactive UI development.
 
 Just edit the source file and save to see changes in the UI. Compilation errors are also reported in the UI and browser console log.
+
+### Copyright and License
+
+These resources are licensed under the MIT license. If you use these resources, please add an attibution to this project and star the project. The full copy of the license is available at [LICENSE](./LICENSE)
+
+Copyright (c) 2017 Edward Sumitra

@@ -6,7 +6,7 @@
   "returns vector of [rows cols] for input xs data vector"
   [m n xs]
   (let [rs (partition n xs)
-        cs (partition n (apply interleave rs))]
+        cs (partition m (apply interleave rs))]
     [rs cs]))
 
 (def positive? #(> % 0))
